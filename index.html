@@ -1,0 +1,77 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Katik - Kalkulator Matematika Segitiga</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Katik</h1>
+        <p>Hai Sobat! Selamat datang di Katik, sebuah aplikasi web sederhana untuk menghitung nilai luas dan keliling segitiga.</p>
+
+        <div class="row">
+            <div class="d-grid gap-2">
+                <button type="button" onclick="calculateType('luas')">Hitung Luas</button>
+                <button type="button" onclick="calculateType('keliling')">Hitung Keliling</button>
+            </div>
+        </div>
+
+        <div id="luasForm">
+            <h1>Katik - Hitung Luas Segitiga</h1>
+            <br>
+            <img src="img/Rumus Luas Segitiga Jika Diketahui Alas dan Tinggi - Matematika Kelas 7.png" alt="">
+            <form id="luasTriangleForm">
+                <label for="alasLuas">Alas:</label>
+                <input type="number" id="alasLuas" required>
+
+                <label for="tinggiLuas">Tinggi:</label>
+                <input type="number" id="tinggiLuas" required>
+
+                <!-- Rumus Luas -->
+                <h3>L = 1/2 × a × t</h3>
+                <h3>L = 1/2 × <span id="luasFormulaAlas"></span> × <span id="luasFormulaTinggi"></span></h3>
+                <h3>Hasil Luas: <span id="resultLuas"></span></h3>
+
+                <div class="buttons">
+                    <button type="button" onclick="calculate('luas')">Hitung</button>
+                    <button type="button" onclick="resetForm('luasTriangleForm')">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="kelilingForm" class="hidden">
+            <h1>Katik - Hitung Keliling Segitiga</h1>
+            <br>
+            <img src="img/Rumus Keliling Segitiga - Matematika Kelas 7.png" alt="">
+            <form id="kelilingTriangleForm">
+                <label for="sisiA">Sisi A:</label>
+                <input type="number" id="sisiA" required>
+
+                <label for="sisiB">Sisi B:</label>
+                <input type="number" id="sisiB" required>
+
+                <label for="sisiC">Sisi C:</label>
+                <input type="number" id="sisiC" required>
+
+                <!-- Rumus Keliling -->
+                <h3>K = AB + BC + CA</h3>
+                <h3>K = <span id="sisiAValue"></span> + <span id="sisiBValue"></span> + <span id="sisiCValue"></span></h3>
+                <h3>Hasil Keliling: <span id="resultKeliling"></span></h3>
+
+                <div class="buttons">
+                    <button type="button" onclick="calculate('keliling')">Hitung</button>
+                    <button type="button" onclick="resetForm('kelilingTriangleForm')">Reset</button>
+                </div>
+            </form>
+            <div id="resultKeliling"></div>
+        </div>
+    </div>
+</body>
+
+</html>
