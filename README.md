@@ -1,6 +1,6 @@
 
 ## 🚀 About Me
-👋 Halo, Saya Roikhatul Janah! 🌱 Saya adalah seorang mahasiswa Bisnis digital yang memiliki minat khusus dalam analisis data dan pengembangan perangkat lunak. Saya senang belajar dan mengeksplorasi berbagai konsep di bidang data science, termasuk pemrosesan data, analisis statistik .💼 Saat ini, saya sedang menempuh pendidikan di bidang Bisnis Digital di mana saya terlibat dalam berbagai proyek yang melibatkan pengolahan dan analisis data untuk mendukung pengambilan keputusan. 
+👋 Halo, Saya Roikhatul Janah! 🌱 Saya adalah seorang mahasiswa Bisnis digital yang memiliki minat khusus dalam analisis data dan pengembangan perangkat lunak. Saya senang belajar dan mengeksplorasi berbagai konsep di bidang data science, termasuk pemrosesan data, analisis statistik .💼 Saat ini, saya sedang menempuh pendidikan di Sistem Informasi dengan konsentrasi Bisnis Digital di mana saya terlibat dalam berbagai proyek yang melibatkan pengolahan dan analisis data untuk mendukung pengambilan keputusan. 
 
 
 
